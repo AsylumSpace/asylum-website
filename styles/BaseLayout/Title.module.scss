@@ -1,0 +1,21 @@
+.titleWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title{
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 35px;
+            
+        color: #FFFFFF;
+    }
+
+    .underlineImg{
+        width: auto;
+        margin-top: 4px;
+    }
+}
