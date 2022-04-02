@@ -1,0 +1,37 @@
+.teamMemberView{
+    width: fit-content;
+    margin-top: 37px;
+    
+    .image{
+        width: 204px;
+        height: 204px;
+        border-radius: 50%;
+    }
+
+    .name{
+        font-family: 'Ubuntu';  
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #FFFFFF;
+
+        margin-top: 29px;
+        text-align: center;
+    }
+
+    .position{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #FFFFFF;
+
+        margin-top: 21px;
+        text-align: center;
+    }
+
+}
