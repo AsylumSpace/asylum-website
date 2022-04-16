@@ -1,0 +1,33 @@
+.partnersWrapper{
+  width: 100%;
+  padding: 100px 0;
+  .partnersContainer{
+    margin-top: 120px;
+    width: 100%;
+
+    .containerUnderline{
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(to right, #CC00FF, #50BFFF);
+      position: relative;
+      &:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 60px;
+        width: 3px;
+        background: linear-gradient(to top, #CC00FF, #161616);
+      }
+      &:before{
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 60px;
+        width: 3px;
+        background: linear-gradient(to top, #50BFFF, #161616);
+      }
+    }
+  }
+}

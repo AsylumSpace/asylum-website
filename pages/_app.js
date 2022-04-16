@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
       <Layout>
         <Head>
-          <title>Supercolony</title>
+          <title>Asylum</title>
           {/*<link href={`/fonts/fonts.css`} rel="stylesheet"/>*/}
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>

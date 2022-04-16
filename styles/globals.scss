@@ -1,3 +1,5 @@
+@import 'Helpers/mediaQueries';
+
 html,
 body {
   padding: 0;
@@ -11,8 +13,11 @@ body {
 .baseWrapper{
   width: 100%;
   padding: 0 15px;
-  max-width: 1210px;
+  max-width: 1200px;
   margin: 0 auto;
+  @include tablet-landscape-down {
+    max-width: 900px;
+  }
 }
 
 a {

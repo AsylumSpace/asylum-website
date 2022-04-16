@@ -9,19 +9,19 @@ const Header = () => {
             <div className={`${header['header']} baseWrapper`}>
                 <img className={header.logo} src={`/img/icons/asylumLogo.svg`} alt="logo"/>
                 <div className={header.rightsideWrapper}>
-                    <div className={header.menuWrapper}>
-                        <ul>
-                            {
-                                headerMenu.map((item, i) =>
-                                    <li key={i.toString()}>
-                                        <a href={item.link}>
-                                            <span>{item.title}</span>
-                                        </a>
-                                    </li>
-                                )
-                            }
-                        </ul>
-                    </div>
+                    {/*<div className={header.menuWrapper}>*/}
+                    {/*    <ul>*/}
+                    {/*        {*/}
+                    {/*            headerMenu.map((item, i) =>*/}
+                    {/*                <li key={i.toString()}>*/}
+                    {/*                    <a href={item.link}>*/}
+                    {/*                        <span>{item.title}</span>*/}
+                    {/*                    </a>*/}
+                    {/*                </li>*/}
+                    {/*            )*/}
+                    {/*        }*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
                     <div className={header.socialsWrapper}>
                         <ul>
                             {

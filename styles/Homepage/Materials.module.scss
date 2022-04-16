@@ -1,0 +1,70 @@
+@import '../Helpers/mediaQueries';
+
+.materialsWrapper{
+  width: 100%;
+  .materialsContainer{
+    width: 100%;
+    padding: 180px 0;
+    background: url("../../public/img/materials-print-bg.png") no-repeat center;
+    background-size: contain;
+    @include tablet-portrait-down {
+      padding: 90px 0;
+    }
+
+    .materialsHolderDesktop{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 100px;
+      .materialsIllustration, .materialsIllustrationRightside{
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        z-index: 10;
+      }
+      .materialsIllustrationRightside{
+        margin-top: 150px;
+      }
+
+      .buttonsContainer{
+        width: 100%;
+        position: relative;
+        .buttonWrapper{
+          background: linear-gradient(to right, #CC00FF, #50BFFF);
+          padding: 2px;
+          border-radius: 19px;
+          width: fit-content;
+          position: absolute;
+          &.buttonWrapperFirst{
+            top: 40px;
+            left: 75px;
+          }
+          &.buttonWrapperSecond{
+            top: 220px;
+            right: 75px;
+          }
+          .button{
+            padding: 11px 24px;
+            background: #161616;
+            border-radius: 17px;
+            &:hover{
+              background: linear-gradient(to right, #CC00FF, #50BFFF);
+            }
+            span{
+              font-family: 'Ubuntu', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 28px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+    .materialsHolderMobile{
+
+    }
+  }
+}
